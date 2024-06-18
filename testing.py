@@ -1,4 +1,6 @@
 import pygraphviz as pgv
+import main
+import example
 
 def draw_fa(states, alphabet, transitions, start_state, accept_states, filename='fa.png'):
     graph = pgv.AGraph(directed=True)
